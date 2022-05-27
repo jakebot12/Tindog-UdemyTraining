@@ -191,3 +191,17 @@ h2 {
     line-height: 1.5;
     font-weight: 900;
 }
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+    .title {
+        text-align: center;
+    }
+
+    .rotate {
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+}
